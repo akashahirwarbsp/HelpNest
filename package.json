@@ -1,0 +1,15 @@
+{
+  "name": "helpnest-support-desk",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "A local-first customer support ticket dashboard demo built with vanilla JavaScript.",
+  "scripts": {
+    "serve": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check src/app.js && node --check src/data.js && node --check src/utils.js && node --check server.mjs"
+  },
+  "keywords": ["customer-support", "ticketing-system", "dashboard", "vanilla-javascript", "open-source", "portfolio-project"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
